@@ -71,6 +71,17 @@ body{
   align-self: center;
   font-size: 13px;
   font-weight: bold;
+
+}
+
+.container .card .user-info .link a{
+
+    transition: all .5s ease;
+}
+
+.container .card .user-info .link a:hover{
+  color:hsl(245deg 70% 63%);
+    text-decoration: none;
 }
 .container .card .user-info  .img{
   margin-right: 10px;
@@ -92,18 +103,19 @@ body{
   color: #fff;
   box-shadow: 10px 10px 52px 0px rgba(189,189,189,1);
   margin-top: 30px;
-  transition: transform  .5s ease;
+  transition: background-color  .5s ease;
 }
 .container .card .btn .btn1:hover{
-  transform: translateY(-3px);
+
+  background-color:  hsl(245deg 70% 63%);
 }
 .container .card .btn .btn2 {
   background-color: transparent;
-  color:  #b5b5b5;
+  color:  hsl(224, 23%, 55%);
   margin-top: 15px;
   transition: color .5s ease;
 }
 
 .container .card .btn .btn2:hover{
-    color:   #382AE0;
+    color:   hsl(223, 47%, 23%);
 }
